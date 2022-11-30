@@ -12,4 +12,4 @@ unittest: development-dependencies
 fix-lint: development-dependencies
 	@pipenv run black .
 
-test: lint
+test: lint unittest
